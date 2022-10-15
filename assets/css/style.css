@@ -7,6 +7,16 @@
     font-family: 'Roboto', serif;
 }
 
+/* h1 AND h2 */
+h1, h2 {
+    font-size: 250%;
+    text-transform: uppercase;
+    color: #193C40;
+    letter-spacing: 4px;
+}
+/* Header */
+
+/* Color Lines Header */
 .color-line-top {
     background-color: #D96941;
     width: 100%;
@@ -19,3 +29,10 @@
     height: 20px;
 }
 
+/* Logo */
+
+#logo {
+    
+}
+
+/* Navigation Menu */
