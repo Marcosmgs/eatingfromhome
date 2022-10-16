@@ -7,6 +7,12 @@
     font-family: 'Roboto', serif;
 }
 
+hr {
+    border-bottom: 5px solid #193C40;
+    border-radius: 5px;
+    width: 100%;
+}
+
 /* h1 AND h2 */
 h1, h2 {
     font-size: 250%;
