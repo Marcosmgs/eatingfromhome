@@ -8,7 +8,7 @@
 }
 
 hr {
-    border-bottom: 5px solid #193C40;
+    border-bottom: 5px solid rgba(25, 60, 64, 0.7);
     border-radius: 5px;
     width: 100%;
 }
@@ -89,12 +89,13 @@ h1, h2 {
     font-size: 180%;
     text-align: center;
     color: whitesmoke;
-    padding: 20px;
+    padding: 25px 20px;
+
 }
 
 #welcome-text {
     width: 600px;
-    height: 450px;
+    height: 400px;
     position: relative;
 
     background-color: rgba(217, 105, 65, 0.7);
@@ -106,9 +107,18 @@ h1, h2 {
 }
 
 #welcome-text h3 {
-    font-size: 100%;
+    font-size: 150%;
     text-align: center;
     padding: 0 20px;
     color: whitesmoke;
+}
+
+#welcome-text p {
+    font-size: 120%;
+    text-align: center;
+    padding: 25px 20px;
+    color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
 }
 
