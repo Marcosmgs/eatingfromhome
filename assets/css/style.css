@@ -39,7 +39,6 @@ h1, h2 {
 }
 
 /* Navigation Menu */
-
 #nav {
     margin-right: 75px;
     letter-spacing: 4px;
@@ -52,11 +51,21 @@ h1, h2 {
     list-style-type: none;
 }
 
+#nav, #logo {
+    line-height: 75px;
+}
+
+/* Hover Navigation Menu */
+
 #nav a {
     text-decoration: none;
     color: #193C40;
 }
 
-#nav, #logo {
-    line-height: 75px;
+#nav a:hover {
+    border-bottom: 2px solid #D96941;
+}
+
+.active {
+    border-bottom: 2px solid #D96941;
 }
