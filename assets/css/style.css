@@ -10,6 +10,7 @@
 /* h1 AND h2 */
 h1, h2 {
     font-size: 250%;
+    font-family: 'Caudex', serif;;
     text-transform: uppercase;
     color: #193C40;
     letter-spacing: 4px;
@@ -36,3 +37,7 @@ h1, h2 {
 }
 
 /* Navigation Menu */
+/*
+#nav {
+
+}*/
